@@ -1,0 +1,216 @@
+Node.js v20.11.0
+(base) rishabhchopra@Rishabhs-MacBook-Pro Scrape-anything---Web-AI-agent % node web_agent.js
+###########################################
+# GPT4V-Browsing by Unconventional Coding #
+###########################################
+
+GPT: How can I assist you today?
+You: Research on which companies Naval Ravikant has funded, and why he funds them. I want to know if he'll fund my company: Whyser: Our Full Stack Entrepreneurship Program combines tech and business skills, hands-on mentorship, and step by step startup play-books. Young founders (age 10-18) learn to prototype, code, monetise, market and pitch their ideas from the ground up. 
+
+GPT: To find information about what companies Naval Ravikant has funded and the reasons behind his investment decisions, I'll start by conducting a Google search. Please wait while I gather the necessary information.
+You: ok
+
+GPT: {"url": "https://google.com/search?q=Naval+Ravikant+investments"}
+Crawling https://google.com/search?q=Naval+Ravikant+investments
+GPT: The search results provide several potential sources for detailed information on Naval Ravikant's investments. I see a featured snippet from Tracxn that highlights Naval Ravikant's profile, stating he has made 136 investments including X, OpenSea, and that he has 30 exits and 11 unicorns. More detailed lists of his investments and potential insights into his investment philosophy might be available on the pages listed. Would you like me to explore any of these pages to gather more information about his investments and investment criteria?
+You: ok
+
+GPT: {"click": "Naval Ravikant - Investor Profile, Portfolio, Investments - Tracxn"}
+Clicking on Naval Ravikant  Investor Profile Portfolio Investments  Tracxn
+GPT: According to the information on Tracxn, Naval Ravikant is an angel investor who has made 136 investments, including in companies like OpenSea. The most recent investment was in a company called Blush, which was a seed round on February 6, 2024.
+
+Notable companies in his investment portfolio include:
+
+- OpenSea
+- Udemy
+
+His investments mainly focus on:
+
+- Enterprise Applications
+- High Tech
+
+In addition, his investment portfolio includes companies based in the United States, India, and 10 more regions.
+
+Some of his recent investment rounds include:
+
+1. Blush - Consumer sector - Seed round - $7M with co-investors including Mark Bailey and more
+2. Andalusia Labs - High Tech sector - Series A - $48M with co-investors including Lightspeed Venture Partners, Mubadala Capital, and 7 more
+3. Liquid AI - High Tech sector - Seed round - $37.6M with co-investors including QSS Capital, Breyer Capital, and 6 more
+4. Proof of Play - Gaming sector - Seed round - $33M with co-investors including Chris Dixon, Neil Mehta, and 6 more
+
+The sectors of investment that Naval Ravikant is interested in are diverse and span across various technology and high-tech areas, including consumer goods and gaming.
+
+Regarding why he chooses to invest in certain companies, the information provided here doesn't specify exact reasons. However, considering that he invests in a mix of enterprises and high-tech startups, factors like innovation in technology, market potential, and the team behind the company likely play significant roles.
+
+Regarding whether he would fund your company Whyser, which focuses on a full-stack entrepreneurship program for young founders, it may align with his interest in education as evidenced by his investment in Udemy, a platform for online learning and teaching. However, we can't provide a definitive answer without more detailed insights into his specific investment criteria and whether his current focus aligns with your company's goals and sector.
+You: So, can you tell me what you just did here. Which webpages you visited in sequence? 
+
+GPT: Certainly! Here's a summary of the steps I took:
+
+1. I performed a Google search with the query "Naval Ravikant investments" to find relevant information about his investment activity.
+2. Upon viewing the search results, I noticed a link to Tracxn, which seemed to contain a detailed investor profile for Naval Ravikant, including his investments and exits.
+3. I navigated to the Tracxn website by clicking on the link as it promised to have a specific list of investments made by Naval Ravikant.
+4. Once on the Tracxn website, I shared information from the page, which included details on Naval Ravikant's investment rounds, sectors he has invested in, notable companies in his portfolio, and locations where he has invested.
+
+Throughout this process, we stayed on the Tracxn page to gather the requested information.
+You: I want you to research on why sam altman was fired. Go through multiple links. 
+
+GPT: {"url": "https://google.com/search?q=why+was+Sam+Altman+fired"}
+Crawling https://google.com/search?q=why+was+Sam+Altman+fired
+GPT: Based on the search results, several articles appear to discuss the circumstances surrounding Sam Altman's departure from a leadership role. The featured snippet from CNBC highlights concerns over safety and Microsoft’s significant investment in the company, but it stops short of providing a detailed reason for his firing. 
+
+To provide a thorough response, I will explore multiple sources. Let's begin by clicking on the CNBC article to gather information from there.
+
+{"click": "CNBC"}
+Clicking on CNBC
+GPT: The article from CNBC states that in November, the board of OpenAI said it had lost confidence in Sam Altman and expelled him from the position of chief executive of the organization. This decision led to messy events that almost resulted in the entire staff of OpenAI threatening to resign after his departure. Concerns over AI safety and OpenAI's role in ensuring it were at the center of the controversy surrounding Altman's ouster. Despite Microsoft’s sizable investment in OpenAI, the company did not have a board seat or a say in the decision to remove Altman.
+
+The article also notes that within days of the firing, Altman was reinstated to his original post. This period saw significant speculation and attention in the media.
+
+To get a more comprehensive understanding, it would be beneficial to explore additional sources. Would you like to continue the investigation, and shall I look at another article?
+You: yes
+
+GPT: {"click": "OpenAI's employees were given two explanations for why ..."}
+Clicking on OpenAIs employees were given two explanations for why 
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I apologize for the inconvenience. Let's try another source for the requested information.
+
+{"click": "OpenAI—Why was CEO Sam Altman sacked? Lack of ... - Mint"}
+Clicking on OpenAIWhy was CEO Sam Altman sacked Lack of   Mint
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I apologize for the error. Let's try a different source to continue the research.
+
+{"click": "Sam Altman reveals why he was fired and then re-hired as ... - Hindustan Times"}
+Clicking on Sam Altman reveals why he was fired and then rehired as   Hindustan Times
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I apologize once again for the issue. Let's try accessing another article.
+
+{"click": "What Sam Altman Did That Was So Bad He Got Fired From ..."}
+Clicking on What Sam Altman Did That Was So Bad He Got Fired From 
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I apologize for the inconvenience. Let's attempt to access a different article to gather more information.
+
+{"click": "Sam Altman is back at OpenAI, but questions remain as to ... - Business Standard"}
+Clicking on Sam Altman is back at OpenAI but questions remain as to   Business Standard
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I'm sorry for the repeated issues. Let's try one more link to find the information you're looking for.
+
+{"click": "AI Business"}
+Clicking on AI Business
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: It seems that there is an issue with clicking on the links. I will try a different approach to access the information.
+
+{"click": "Why OpenAI Fired Its CEO Sam Altman"}
+Clicking on Why OpenAI Fired Its CEO Sam Altman
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I apologize for the continued difficulties. Let's attempt another source.
+
+{"click": "Sam Altman back on OpenAI board, says 'pleased that the ..."}
+Clicking on Sam Altman back on OpenAI board says pleased that the 
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: It seems we are encountering continued issues with clicking through to articles. Let's attempt accessing the content from an alternative source. 
+
+{"click": "Hindustan Times"}
+Clicking on Hindustan Times
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I apologize for the repeated issues with clicking on the links. We'll try another article to continue with the research.
+
+{"click": "Indian Express"}
+Clicking on Indian Express
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I'm sorry for the inconvenience. Let's try a different approach. I will select another link that we haven't tried yet.
+
+{"click": "India Today"}
+Clicking on India Today
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I apologize for the persistent issues. As an alternative, let me try one more link from the search results.
+
+{"click": "OpenAI employees wondered why Sam Altman was fired ..."}
+Clicking on OpenAI employees wondered why Sam Altman was fired 
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I apologize for the ongoing difficulties. Given the repeated errors, let me try yet another link that has not been attempted.
+
+{"click": "The Indian Express"}
+Clicking on The Indian Express
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: My apologies for the continued difficulties. I will select another link to try.
+
+{"click": "Why did board get rid of Sam Altman?"}
+Clicking on Why did board get rid of Sam Altman
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I'm sorry for the inconvenience. Since we're experiencing persistent issues with clicking on elements, I will now try a different approach to access the information. 
+
+{"click": "More results"}
+Clicking on More results
+ERROR: Clicking failed Error: Can't find link
+    at /Users/rishabhchopra/Documents/GitHub/Scrape-anything---Web-AI-agent/web_agent.js:321:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+GPT: I apologize for the persistent issues we are encountering. It seems that clicking on links within the search results is not functioning as expected. 
+
+To continue with our task, I can try searching with a slightly different query in hopes that we will get a different set of search results which might allow us to access the information successfully.
+
+Let's initiate a new search with a revised query.
+
+{"url": "https://google.com/search?q=Sam+Altman+OpenAI+firing+details"}
+Crawling https://google.com/search?q=Sam+Altman+OpenAI+firing+details
+GPT: The featured snippet from Wikipedia provides a brief overview of the situation: "On November 17, 2023, OpenAI's board of directors removed co-founder and chief executive Sam Altman after the board had no confidence in his leadership. Altman was reinstated on November 22."
+
+Since this snippet gives us a concise explanation, it would be beneficial to access the Wikipedia page for a more detailed account of the events surrounding Sam Altman's firing and subsequent reinstatement. Shall I proceed by accessing the Wikipedia page?
+You: yes
+
+GPT: {"click": "Removal of Sam Altman from OpenAI - Wikipedia"}
+Clicking on Removal of Sam Altman from OpenAI  Wikipedia
+GPT: The Wikipedia page titled "Removal of Sam Altman from OpenAI" provides information about the events leading up to the removal of Sam Altman. The article mentions that on November 17, 2023, OpenAI's board of directors removed co-founder and chief executive Sam Altman after the board had no confidence in his leadership, resulting in his removal. Details on the specific reasons for the board's loss of confidence are not included in the visible section of the page.
+
+For a more detailed explanation, we would need to click on the sections within the Wikipedia article that discuss the "Events leading up to the removal" and the specifics of the "Removal." These sections are likely to contain the information you are seeking about why Sam Altman was fired. Would you like me to click on one of those sections to find more details?
+You: yes
+
+GPT: {"click": "Events leading up to the removal"}
+Clicking on Events leading up to the removal
+GPT: The "Events leading up to the removal" section on the Wikipedia page outlines several key points that contributed to the firing of Sam Altman from OpenAI:
+
+1. Disagreements over the safety of artificial intelligence (AI) seemed to play a central role. Some board members had concerns about Altman's approach to AI safety and the potential for divisive public disputes about AI risks.
+
+2. There were disagreements with OpenAI co-founder and then-Chief Scientist Ilya Sutskever, who was instrumental in Altman's removal. These disagreements were related to AI safety considerations and non-profit status considerations for AI.
+
+3. Altman sought funding from Middle Eastern sovereign wealth funds to develop an artificial intelligence chip prototype. This move was met with opposition from Sutskever and some board members.
+
+4. Altman was seeking to establish an independent hardware firm (Aphrodite) with former Apple designer Jony Ive, which led to further conflicts within OpenAI.
+
+5. A leaked email reportedly showed Altman's resistance to the board's oversight concerning the safety implications of the firm's developments.
+
+Additional reports suggest that:
+
+- There were concerns about Altman's approach to developing AI capabilities, including secrecy around significant breakthroughs, potentially misleading descriptions of AI capabilities, and the overall safety of these developments.
+- The Washington Post indicated that the board's directors were concerned over Altman’s approach to these issues, with complaints purportedly a major factor in his removal. The board's allegations of deception and subversiveness factored into Y Combinator's decision to remove him.
+
+Given this context, it appears that a combination of leadership style disputes, disagreements over AI safety strategy, and internal governance issues ultimately led to Sam Altman's temporary firing from OpenAI.
+You: 

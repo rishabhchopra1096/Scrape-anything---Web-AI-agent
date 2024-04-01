@@ -1,11 +1,4 @@
-// TODO: 
-// 1. [0 hours] Build the UI [Text Input + Carousel + Commands + Dark Theme]
-// 2. [1 hour] Understand the back-end code
-// 3. [2 hours] Use express JS to setup a server that listens for requests from the front-end. 
-// 4. [2 hours] Use Pupeteer + A Free Vision Language Model 
-// 5.[3 hours] Make it All Work Together + Fix All Bugs
-// 6. [1 hour] Deploy the app on Render.com
-
+// I want the code from web_agent.js to be executed in the browser
 
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
@@ -36,27 +29,27 @@ async function image_to_base64(image_file) {
     });
 }
 
-async function input( text ) {
-    // This will create a simple command line interface to interact with the 
-    // web agent. 
-    let the_prompt;
-    const rl = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout
-    });
+// async function input( text ) {
+//     // This will create a simple command line interface to interact with the 
+//     // web agent. 
+//     let the_prompt;
+//     const rl = readline.createInterface({
+//       input: process.stdin,
+//       output: process.stdout
+//     });
 
-    await (async () => {
-        return new Promise( resolve => {
-            rl.question( text, (prompt) => {
-                the_prompt = prompt;
-                rl.close();
-                resolve();
-            } );
-        } );
-    })();
+//     await (async () => {
+//         return new Promise( resolve => {
+//             rl.question( text, (prompt) => {
+//                 the_prompt = prompt;
+//                 rl.close();
+//                 resolve();
+//             } );
+//         } );
+//     })();
 
-    return the_prompt;
-}
+//     return the_prompt;
+// }
 
 async function sleep( milliseconds ) {
     // A sleep function for it to wait for the timer so that the page can be fully loaded

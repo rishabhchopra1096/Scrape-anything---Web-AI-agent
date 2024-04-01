@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse.new | Induced</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0E0F14;
+            color: white;
+        }
+        
+        .header {
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 0%, transparent 100%), #020308;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin-top: 100px; /* Adjust based on your actual header height */
+        }
+        
+        .main-content h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .main-content p {
+            color: #969696;
+        }
+
+        .input-wrapper {
+           position: relative;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 600px; /* Adjust as needed */
+        }
+
+        .input-wrapper textarea {
+            padding-right: 40px;
+            border: 1px solid #FFFFFF12;
+            background: #202222;
+            color: #848484;
+            min-height: 40px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .input-wrapper .switch {
+            align-self: start;
+            margin: 10px 0;
+            background: #8398FF;
+            border-radius: 20px;
+            padding: 5px;
+            display: inline-block;
+        }
+
+        .input-wrapper .switch span {
+            background: white;
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+       
+       .input-wrapper .submit-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+        /* Add additional styles for the rest of the elements */
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- Logo and Navigation elements go here -->
+    </div>
+    <div class="main-content">
+        <h1>Enter a goal for the browser agent.</h1>
+        <p>Avoid running flows that require login. Give explicit and clear instructions for best performance. This is only a playground.</p>
+        <div class="input-wrapper">
+            <textarea placeholder="Write prompt here"></textarea>
+            <div class="switch"><span></span></div>
+            <button class="submit-button">►</button> <!-- This
+        </div>
+        <!-- Add additional sections as per the screenshot -->
+    </div>
+</body>
+</html>
